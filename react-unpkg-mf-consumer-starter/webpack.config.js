@@ -3,7 +3,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const { camelCase } = require("camel-case");
 
 const federatedRemotes = {
-  "react-unpkg-mf-lib-starter": "^1.0.11",
+  //  "your-package-name": "^1.0.0",
 };
 const deps = {
   ...federatedRemotes,
